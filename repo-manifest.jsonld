@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/facebookresearch/pytorchvideo/commit/2ac6ed361309cb25144636ad82dd8bd6a4970e0c",
       "git:hexsha": "2ac6ed361309cb25144636ad82dd8bd6a4970e0c",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/facebookresearch/pytorchvideo/commit/4feccb607d7a16933d485495f91d067f177dd8db",
