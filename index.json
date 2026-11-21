@@ -3,6 +3,11 @@
   "repo": "pytorchvideo",
   "versions": [
     {
+      "commit": "7614451e917c07271c138b5bd6d6746d4f41fbb2",
+      "tag": "0.1.3",
+      "parsed_at": "2026-11-21T23:05:45.811179+00:00"
+    },
+    {
       "commit": "2ac6ed361309cb25144636ad82dd8bd6a4970e0c",
       "tag": "",
       "parsed_at": "2026-11-06T07:11:08.104669+00:00"
