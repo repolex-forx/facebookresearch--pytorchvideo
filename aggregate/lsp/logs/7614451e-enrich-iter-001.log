@@ -1,0 +1,30 @@
+[2026-11-21T22:51:25Z] === ENRICH ITERATION 1 START | repo=facebookresearch/pytorchvideo sha=7614451e ===
+[2026-11-21T22:51:25Z] [iter=1] PHASE START: enrich repo=facebookresearch/pytorchvideo sha=7614451e runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/7614451e-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/7614451e917c07271c138b5bd6d6746d4f41fbb2.nq.gz
+[2026-11-21T22:51:25Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-21T22:51:34Z] [iter=1] AST store loaded triples=886214 load_secs=8 mem_mb=859 MB
+[2026-11-21T22:51:34Z] [iter=1] Step 2: Finding LSP targets mem_mb=859 MB
+[2026-11-21T22:51:35Z] [iter=1] LSP targets found call_sites=6287 imports=724 extends=45 implements=0 secs=1
+[2026-11-21T22:51:37Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=859 MB
+[2026-11-21T22:51:39Z] [iter=1] Position index built positions=57505 nodes_with_types=74189 secs=3 mem_mb=859 MB
+[2026-11-21T22:51:39Z] [iter=1] Step 3: Starting LSP resolution mem_mb=859 MB already_completed_types=[] already_completed_files=0
+[2026-11-21T22:51:39Z] [iter=1] Resolving target type target_type=call_site count=6287
+[2026-11-21T22:52:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.9 files_done=2 resolved=401 errors=0 current=tests/test_models_head.py
+[2026-11-21T22:53:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.2 files_done=8 resolved=1433 errors=0 current=pytorchvideo/data/labeled_video_dataset.py
+[2026-11-21T22:54:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.7 files_done=17 resolved=1874 errors=0 current=tests/test_data_epic_kitchen_forecasting.py
+[2026-11-21T22:54:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.3 files_done=26 resolved=2313 errors=0 current=tests/test_models_masked_multistream.py
+[2026-11-21T22:55:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.8 files_done=35 resolved=2718 errors=0 current=pytorchvideo/data/charades.py
+[2026-11-21T22:55:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.3 files_done=43 resolved=3128 errors=0 current=pytorchvideo/layers/accelerator/mobile_cpu/convolutions.py
+[2026-11-21T22:56:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.9 files_done=48 resolved=3574 errors=0 current=tests/test_models_csn.py
+[2026-11-21T22:56:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.4 files_done=58 resolved=3964 errors=0 current=pytorchvideo/accelerator/deployment/mobile_cpu/utils/model_conversion.py
+[2026-11-21T22:57:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.9 files_done=71 resolved=4400 errors=0 current=pytorchvideo/data/ssv2.py
+[2026-11-21T22:57:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.5 files_done=87 resolved=4790 errors=0 current=tests/test_data_epic_kitchen_utils.py
+[2026-11-21T22:58:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.0 files_done=98 resolved=5154 errors=0 current=projects/video_nerf/dataset_utils.py
+[2026-11-21T22:58:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.5 files_done=132 resolved=5563 errors=0 current=dev/linter.sh
+[2026-11-21T22:58:58Z] [iter=1] Target type resolved target_type=call_site resolved=5567 errors=0 secs=438 mem_mb=859 MB
+[2026-11-21T22:58:58Z] [iter=1] Resolving target type target_type=import_statement count=724
+[2026-11-21T22:59:02Z] [iter=1] Target type resolved target_type=import_statement resolved=671 errors=0 secs=4 mem_mb=859 MB
+[2026-11-21T22:59:02Z] [iter=1] Resolving target type target_type=extends_clause count=45
+[2026-11-21T22:59:03Z] [iter=1] Target type resolved target_type=extends_clause resolved=44 errors=0 secs=1 mem_mb=859 MB
+[2026-11-21T23:03:40Z] [iter=1] Step 5: Writing final enrichment file triples=78143
+[2026-11-21T23:03:40Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/7614451e917c07271c138b5bd6d6746d4f41fbb2.nq.gz size_kb=1804
+[2026-11-21T23:03:40Z] [iter=1] PHASE END: enrich elapsed_s=735 elapsed_min=12.2 total_triples=78143
